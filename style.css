@@ -1,0 +1,81 @@
+body{
+   font-family: sans-serif, "Open Sans";
+ 	 color: #003366;
+    }
+
+    h1  {
+ 	   font-size: 3rem;
+ 	   text-align: center;
+     font-family: 'Satisfy', cursive;
+    }
+
+   table {
+ 	   margin-left: auto;
+ 	   margin-right: auto;
+ 	   text-align: left;
+ 	   border-collapse: collapse;
+   }
+
+   tr   {
+	  border: 1px solid #ffffff;
+	  text-align: center;
+	  background-color:#9FB6CD;
+  }
+
+  th   {
+	 text-align: center;
+	 color: #ffffff;
+	 background-color: #003366;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0,0,0, .15);
+  }
+
+  .nav-bar {
+    height: 50px;
+    margin: -10px;
+    background-color: #003366;
+  }
+
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .nav-bar li {
+    display: inline;
+  }
+
+  .nav-bar-item {
+    margin: 20px;
+  }
+
+  .nav-bar-item a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  #myButton {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    background-color: #0057FF;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+#myButton:hover {
+    background-color: #003aaa;
+  }
